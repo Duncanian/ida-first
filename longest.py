@@ -1,14 +1,14 @@
 
 def longest(word_list):
     word_list = word_list.split()
-    long_w = ''
+    w_long = ''
     sizes = 0
 
     for word in word_list:
         if len(word) > sizes:
-            long_w = word
+            w_long = word
             sizes = len(word)
-    return long_w
+    return w_long
 
 
 yes = longest('This is Andela')
